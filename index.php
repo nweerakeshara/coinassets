@@ -1,0 +1,182 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+
+<link rel="stylesheet" type="text/css" href="css/Home.css"> <!--Linking css!-->
+<link rel="stylesheet" text="test/css" href="css/header.css">
+<link rel="stylesheet" text="test/css" href="css/footer.css">
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- Bootstrap related !-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script src="scripts/home.js"></script>
+
+  
+ 
+  </style>
+  
+</head>
+<body id="body" style="margin: 0 auto;">
+
+<!-- Start of header -->
+<?php require 'common/header.php'; ?>
+ <!-- End of header -->
+ 
+ <!-- Search box -->   
+<div class="site-search clearfix">
+
+	<form method="get" action="https://www.google.com/search?g=">
+	<input type="search" name="search-box" value="search"  >
+	<button type="submit" ></button>
+	</form>
+</div>
+
+
+<!-- Slide show --><!--Bootsrap Code-->
+<div class="container">
+  <h2>Welcome To Coin Assets Online Banking</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="ImagesNW/slide1.png" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="ImagesNW/slide2.png" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="ImagesNW/slide3.png"  style="width:100%;">
+      </div>
+	  
+	   <div class="item">
+        <img src="ImagesNW/slide4.png"  style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<h2>Latest News</h2>
+
+<img src="ImagesNW/new1.jpg"  height="250px" width="250px">
+<div class="news1"> <p >Forbes reports that the 129-year-old Chicago-based firm, which caters to institutional investors, corporations, and high net worth individuals, has begun 
+to open up some of its services to cryptocurrency hedge funds while also exploring how to integrate blockchain technology into its private equity division.
+According to the publication, Northern Trust has for months also been working with three “mainstream hedge funds” that have begun stealthily adding cryptocurrency 
+investments to their portfolios as they seek to gain exposure to the nascent but burgeoning crypto marketplace.Northern Trust has an estimated $10.7 trillion in assets under 
+custody and administration, according to its website. At present, Northern Trust is not custodying cryptoassets directly, but the firm is providing crypto-curious hedge funds 
+and institutions with administrative services such as helping them assign values to their investments, assisting in anti-money laundering (AML) compliance, and verifying that 
+the firms’ third-party custodians are holding the cryptoassets the funds report on their balance sheets. That revelation, along with the recent news that “Big Four” accounting firm 
+PwC had agreed to audit the Tezos Foundation, which oversees the assets raised during the cryptocurrency’s then-record initial coin offering (ICO), is the latest sign that 
+established financial services firms are recognizing that the cryptocurrency industry is a market that they can no longer dismiss.
+Pete Cherecwich, Northern Trust’s president of corporate and institutional services, told Forbes that while the firm is on record stating that it is “cautious” about 
+blockchain technology, it is also preparing for a future in which governments themselves may issue their state-backed currencies on a blockchain.
+“I do believe that governments will ultimately look at digitizing their currencies, and having them trade kind of like a digital token — a token of the U.S. dollar — but the 
+U.S. dollar is still in a vault somewhere, or backed by the government,” he said. “How are they going to do that? I don’t know. But I do believe they are going to get there.” </p>
+ </div>
+ <br><br>
+<img src="ImagesNW/new2.jpg"  height="250px" width="250px">
+<div class="news1"> <p>
+During the past 6 months alone the value of the rupee has depreciated by 5.44% in comparison to the US Dollar. 
+The rupee value which was at 110 rupees and 95 cents in comparison to the US dollar, in the year 2010, shot up to 152 
+rupees and 85 cents by the beginning of 2017, it currently stands at Rs. 161.1782.
+Among several factors that affect the foreign exchange rates of a country, the inflation rate as well as the country’s 
+current account and the balance of payments have a major impact. The interest rates of the country also plays an important
+ role in the fluctuation of the exchange rates. Experts say, under the 100 days government, during the first quarter 
+of 2015, the former Central Bank Governor Arjuna Mahendran’s money printing lit the fuse under the economy.
+The national debt figure in January 2015 stood at rupees 4000 billion or 4 trillion rupees. During the controversial 
+bond scam on the 27th of February 2015, where bonds worth 10 billion rupees was issued for 30 years, the interest rates 
+went up by 3.15%. In rupee terms this increase in interest rates translated to an additional burden of 126 billion rupees
+ to the countries debt. It is clear that the money printing undertaken by the former governor of the Central Bank of 
+Sri Lanka Arjuna Mahendran caused the rupee to depreciate further. Economists further pointed out that the interest rate 
+increase during the 2015 bond scam sped up the rupee depreciation. If the politicians of the country are not able to manage 
+the economy, should they not hand over the responsibility to others, competent and able to deliver the peoples’ 
+aspirations. Why should the 22 million people of this country, tolerate the foolishness and inaptitude of legislators 
+who have a clear disfunctionality and act in their own narrow interests.Former Governor of the Central Bank Arjuna Mahendran 
+remains elusive. For the moment he manages to evade the long hands of the law. The Prime Minister, the man who recommended 
+his appointment and gave assurances to the cabinet of ministers on his ability and skill remains tight lipped before the people.</p>
+ </div> </p>
+ <br>
+ <img src="ImagesNW/new3.jpg"  height="250px" width="250px">
+<div class="news1"> <p>
+The Coin Assets Bank, recently won five awards, four from the World CSR Congress at the Sri Lanka CSR Awards 2018, 
+and one from CMO Asia at the Golden Globe Tigers Awards 2018, at the same event.
+The Bank was presented the awards for ‘Best Corporate Social Responsibility Practices,’ ‘Support and improvement in quality 
+of education,’ ‘Developing sustainable strategies’ and ‘Concern for health’ at the Sri Lanka CSR Awards; and honoured with
+ the Brand Leadership Award in the Banking category by CMO Asia.The award for ‘Support and improvement in quality of 
+education,’ recognises the Bank’s initiatives in the field of education. Over the years, the Bank has made an immense 
+contribution towards the Sri Lankan education system by donating over 150 IT laboratories to needy schools, awarding of 
+scholarships to 300 undergraduates, launching the revolutionary online learning platform “Sip-study,’ initiating a math lab 
+programme, sponsoring vocational training through career guidance units,providing English language training for both 
+students and teachers, and by partnering the “Schools” initiative to transform the traditional classroom model.
+The Bank won the award for ‘Developing sustainable strategies’ for its success in interweaving sustainability with its 
+business practices and for taking the initiative to reduce its carbon footprint through the establishment of Green Banking 
+Channels, comprehensive waste disposal systems, moving in to hydro power and reduction of paper use through the digitization 
+of processes.he award for ‘Concern for health’ was won for the Bank’s efforts in providing infrastructure and critical care equipment to over 
+50 children’s, maternity and general hospitals owned by the government. Improving antenatal, neonatal and paediatric healthcare facilities 
+has been the focus of these efforts. The Bank’s health related CSR initiatives also encompass supporting initiatives and research for the 
+prevention of chronic kidney disease (CKDu). The Bank was also awarded the Brand Leadership Award in the Banking category for its leadership 
+amongst the private banks in Sri Lanka by maintaining the highest market capitalisation, gross income, operating income, profit before and after 
+tax, total assets, total deposits, gross loans, market share of deposits, market share of loans, and best CASA ratio.</p>
+ </div> </p>
+ <br>
+<div> 
+<img id="Advertisementjs"  src="ImagesNW/ad3.jpg" width="50%">
+</div>
+<br>
+<div class="adcontainer">
+<div class="adbuttoncontainer">
+<button class="adbutton" type="button" onclick="addfunction()"><img src="ImagesNW/ad1button.jpg"></button>
+</div>
+<div class="adbuttoncontainer">
+<button class="adbutton" type="button" onclick="addfunction1()"><img src="ImagesNW/ad2button.jpg"></button>
+</div>
+<div class="adbuttoncontainer">
+<button class="adbutton" type="button" onclick="addfunction2()"><img src="ImagesNW/ad3button.jpg"></button>
+</div>
+</div>
+ <br><br>
+<table id="tabledownhome" width="100%" >
+	<tr> <td  width="83%"> <div class="twittertline">
+<a class="twitter-timeline" href="https://twitter.com/AssetsCoin?ref_src=twsrc%5Etfw">Tweets by AssetsCoin</a>
+ <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <!--Twitter Javascript!-->
+ </div>
+ </td>
+ <td>	<br>
+ <div id="savings-calculator"  >
+ <a target="_blank" class="savings-calculator-link"
+ href="http://www.frograte.com/savings-calculator/">Savings Calculator</a><br />
+ <iframe src="http://www.frograte.com/calculator.asp?t=4&ct=000000&cb=FFFFFF" height="200" width="235" frameborder="0" allowtransparency="true"></iframe></div>
+ </td></table>
+ <br>
+<!-- Footer -->
+<?php require 'common/footer.php'; ?>
+
+</body>
+</html>
