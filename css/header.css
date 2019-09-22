@@ -1,0 +1,173 @@
+ 
+
+/*Start of Header styles*/
+#navibar {
+    list-style-type: none;
+
+    margin: 1;
+    padding: 0;  /*Navibar top*/
+    overflow: hidden;
+    background-color: rgb(108, 122, 137);
+
+
+}
+
+.ul{
+	width: 80%;
+}
+
+.li1 {
+    float: right; /*CSS of the top navi bar lists*/
+}
+
+.li1 a {
+    display: block; /*CSS of the top navi bar lists*/
+    color: white;
+    text-align: center;
+    padding:13px;
+    font-size: 16;
+    text-decoration: none;
+}
+
+#login{
+    color: white;
+    background-color: rgb(108, 122, 137);
+}
+
+#navibar2 {
+    list-style-type: none;
+    margin: 1;
+    padding: 0;   /*Navibar middle*/
+    overflow: hidden;
+    background-color: #F7CA18;
+}
+
+.li2 {
+    float: left;   /*CSS of the middle navi bar lists*/
+}
+
+.li2 a {
+    display: block;
+    color: white;   /*CSS of the middle navi bar lists*/
+    text-align: center;
+    padding:1px;
+    text-decoration: none;
+}
+
+.li2 :hover {
+    background-color: #111111;
+    font-weight:bold;
+	text-decoration: none;  /*CSS of the middle navi bar lists*/
+	color:white;
+}
+.li1 :hover {
+    background-color: #111111;
+    font-weight:bold;	
+	text-decoration: none;
+	color:white;    /*CSS of the top navi bar lists*/
+}
+/*End of Header styles*/
+
+
+/*Start of searchbox styles*/
+.site-search{
+	border-radius: 16px;
+	margin: 23px; 
+	background-color: grey;
+	float: right;
+	padding: 2px 2px 1px 8px; 
+}
+.site-search input{
+	border: 5; 
+	float: left; 
+}
+.site-search button{	width: 8px; 
+						height: 20px; 
+						background: url(http://www.clker.com/cliparts/n/C/y/X/u/K/search-icon.svg); 
+						border: none; 
+						padding: 1px; 
+						float: right;
+}
+/*Start of searchbox styles*/
+
+
+#tabletop { border:5px solid #F7CA18; 
+}
+#bankname {  text-align:left; 
+			 font-weight:bold;
+}
+.footer{	bottom:0px;
+			right:0px;
+			left:0px; 
+			background-color:rgb(108, 122, 137);
+			margin:1;
+			width:100%;
+			padding:0;
+}
+div.a{ 	text-aling:left;
+		padding-left:30px;
+}
+div.b{  padding-right:30px;
+		adding-top:10px;
+}
+
+div.d{ text-align:center;
+}
+	
+div.c{	text-align:right;
+		padding-right:50px
+}
+				
+#login{  color:Black; 
+		 background-color:white;
+		 border-radius:15px;
+}
+#myimage { margin:14px 0px 0px 250px;
+		   width:60%;
+}		
+#body {	margin-right: 10px;   
+		margin-left: 10px; 	
+}
+
+#tablein { font-weight:bold; 
+			font-size:20px;
+}
+
+#news { position:absolute; 
+		left:100px 
+}
+
+.slideshow, .Slidepic{ margin-top:50px; 
+					   height:250px;
+					   width:65%;} 
+
+div.news1 { display: inline-block;
+			text-align:left;
+			width: 81% ; 
+			vertical-align:top;  
+			margin-left : 15px;
+			text-align: justify;
+			text-justify: inter-word;
+}
+.twittertline { width:100%;
+				text-align: center;
+}
+
+#tabledownhome { border:3px solid #F7CA18 }
+
+div.aboutusout { background-color:#F2F1EF; 
+				 border:5px solid black; } 
+
+	 
+
+
+
+
+    
+
+             
+     
+
+
+             
+    

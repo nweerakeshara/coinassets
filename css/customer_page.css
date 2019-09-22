@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix{overflow: auto;}
+
+.box {
+	margin-top: 400px;
+	width: 860px;
+	height: 600px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 0px 0px;
+}
+
+.info-box{
+	float: left;
+	width: 400px;
+	height: 570px;
+	background: #eee;
+	margin: 15px;
+	padding: 0px;
+	
+}
+
+.sum-box{
+	float: right;
+	width: 400px;
+	height: 570px;
+	background: #eee;
+	margin: 15px;
+	padding: 0px;
+	
+}
+
+.image{
+	
+	margin: 50px 100px;
+	
+}
+
+.info{
+	border-radius: 10px;
+	width: 370px;
+	height: 73px;
+	background: #6C6969;
+	padding: 0px;
+	margin: 15px 15px;
+}
+
+.role h3{
+	padding-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	color: black;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.role p{
+	
+	margin-top: 5px;
+	font-size: 28px;
+	margin-left: 10px;
+	color: black;
+	font-weight: 800;
+	
+}
+
+.value h3{
+	padding-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	color: black;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.value p{
+	margin-left: 10px;
+	margin-top: 0px;
+	font-size: 38px;
+	color: black;
+	font-weight: 800;
+}
+
+.contact h3{
+	padding-top: 10px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+	color: black;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
+}
+
+.contact p{
+
+	margin-left: 10px;
+	margin-top: 0px;
+	font-size: 14px;
+	color: black;
+	font-weight: 800;
+	
+	
+}
+
+.title{
+	
+	width: 400px;
+	height: 50px;
+	
+	
+}
+
+
+.title h1{
+	
+	text-align: center;
+	color: black;
+	
+}
+
+.title img{
+	
+	float: right;
+	margin-top: -50px;
+	padding: 0px;
+	
+}
+
+
+
+
+
+
+.summery-box{
+	
+	height: 130px;
+	width: 370px;
+	background: #ccc;
+	margin: 15px;
+}
+
+.drop-down{
+	
+	margin: 0px 170px;
+	margin-top: -20px;
+	
+}
+
+.summery-box p{
+	
+	margin: 5px 5px 10px;
+	color: black;
+	
+}
+
+#date1{
+	
+	color: black;
+	margin: 15px;
+	
+}
+
+#date2{
+	
+	color: black;
+	margin: 15px;
+	
+}
+
+#date3{
+	
+	color: black;
+	margin: 15px;
+	
+} 
+
+.summery-box button{
+	
+	float: right;
+	margin-top: -40px;
+	margin-right: 10px;
+    background-color: #7a7a52;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+body{
+	
+	background:#FFFFFF;
+
+	
+}
+
+.role:hover{
+	
+	background-color:#565483;
+	border-radius: 10px;
+	
+}
+
+.value:hover{
+	
+	background-color:#565483;
+	border-radius: 10px;
+	
+}
+
+.contact:hover{
+	
+	background-color:#565483;
+	border-radius: 10px;
+	
+}
+
+.pointer {cursor: pointer;}
+
+.help {cursor: help;}
+
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 100px 300px;
+    cursor: pointer;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	border: 2px solid #eee;
+	border-radius: 8px;
+}
+
+.ad-box{
+	
+	width: 640px;
+	height: 360px;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	box-sizing: border-box;
+	margin-bottom:30px;
+	margin: 0 auto;
+	
+	
+}
+
+.ad-box p{
+	
+	text-align: center;
+	padding-top: 100px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	
+}
+
+
+#bankname{
+	
+	font-size: 48px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

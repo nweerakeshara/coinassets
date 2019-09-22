@@ -1,0 +1,93 @@
+.login_form{
+    position: relative;
+    width: 60%;     
+    padding-right: ;
+    margin-left: ; 
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+    fieldset{
+        position: absolute;
+        right:300px;
+        width:60%;        
+        border: 10px solid #c0c0c0;
+        border-radius: 10px;
+    }
+
+    h3.login{
+        text-align: center;
+    }
+
+    div.b {
+         text-align: center;
+    }
+
+    div.c{
+        text-align: center;
+    }
+
+    input.login_a {
+        width: 350px;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding:5px 10px;
+    }
+
+    a.login_a{
+        padding-left:  ;
+    }
+
+    a.login_b{
+        padding-left:  ;
+    }
+
+    #a{
+        background-color:#DCDCDC;
+        padding: 12px 30px;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .c_form{
+        padding: 5px 40px;
+        font-size: 25px;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #339933;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .c_form:hover{
+        background-color: #006600;
+    }
+
+    label{
+        font-family:Trebuchet MS,Palatino;
+        color: #2929ad;
+    }
+
+        /*check box*/
+     
+  .rem{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+  }  
+
+  #radio{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  #last{
+    text-decoration: none;
+    font-size: 16px;
+    color: black; 
+  }

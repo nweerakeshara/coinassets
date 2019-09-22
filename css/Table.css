@@ -1,0 +1,68 @@
+#risk {
+    font-family: "Trebuchet MS";
+    border-collapse: collapse;
+    width: 100%
+}
+
+#risk td, #risk th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#risk tr:nth-child(even){background-color: #f2f2f2;}
+
+#risk tr:hover {background-color: #ddd;}
+
+#risk th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ef5f00;
+    color: white;
+}
+
+#but{
+
+    background-color:#42aaf4;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+    
+}
+#but:hover {
+    background-color: #4271f4;
+}
+
+
+#riskDetails {
+    font-family:"Trebuchet MS";
+    width: 50%
+}
+
+#riskDetails td, #riskDetails th {
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+#riskDetails {background-color: #f2f2f2;}
+
+#riskDetails th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+    background-color: #0055af;
+    color: white;
+}
+
+#chart{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}

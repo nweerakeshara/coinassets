@@ -1,0 +1,179 @@
+body{
+    background: #fafcf2;
+}
+
+p{
+	font-family: Comic Sans MS;
+    font-size: 15px;
+    color: gray;
+}
+#head{
+    font-family: Comic Sans MS;
+    color:#ffd747;
+}
+#cus{
+    font-family: Comic Sans MS;
+    color:#00bf55;
+}
+.email{
+	width:500px;
+}
+.phone{
+	width:500px;
+}
+
+.contd{
+	float:left;
+}
+
+.feedback{
+	
+	width:700px;float:right;
+}
+
+input[type=text]{ 
+	width:50%;
+	padding:12px;
+	margin:6px 12px;
+	border: 2px solid gray;
+	border-radius:4px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+#content{
+	font-family:"arial";
+	 width: 70%;
+    	height: 150px;
+    	padding: 12px 20px;
+	margin:6px 12px;
+    	box-sizing: border-box;
+    	border: 2px solid gray;
+    	border-radius: 4px;
+    	font-size: 15px;
+    	resize: none;
+}
+
+input[type=submit]{
+
+	background-color:#084914;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+
+}
+
+input[type=submit]:hover {
+    background-color: #10bc30;
+}
+
+
+input[type=button]{
+
+	background-color:#42aaf4;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+
+	
+}
+input[type=button]:hover {
+    background-color: #4271f4;
+}
+
+#abc{
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    float:right;
+    font-size: 14px;
+    background-color: white;
+    background-position: 20px 20px; 
+    background-repeat: no-repeat;
+    padding: 8px 10px 12px 18px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#abc:focus {
+    width: 20%;
+}
+
+#fed{
+	font-size:25px;
+}
+#feldset{
+	
+	border-radius:8px;
+}
+#con{
+	font-size:40px;
+}
+#cont{
+	
+	border-radius:4px;
+}
+#emailC{
+    font-size: 25px;
+}
+#emailF{
+    border-radius: 8px;
+  
+}
+#gmail{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+#emailL{
+    font-size: 25px;
+}
+phone{
+    font-size: 25px;
+}
+#phoneH{
+    border-radius: 8px;
+  
+}
+#phoneI{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+#phoneL{
+    font-size: 25px;
+}
+
+#addver{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+#fedb{
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+}
+#cust{
+    height: 200px;
+    width: 800px;
+    border-radius: 5px;
+    float:right;
+}
+#demo{
+    color:red;
+    font-weight: bold;
+    font-size: 18px;
+}

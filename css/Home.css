@@ -1,0 +1,104 @@
+
+/* CSS of the aboutus page*/
+
+
+
+/*Start of searchbox styles*/
+.site-search{
+	border-radius: 16px;
+	margin: 23px; 
+	background-color: grey;
+	float: right;
+	padding: 2px 2px 1px 8px; 
+}
+.site-search input{
+	border: 5; 
+	float: left; 
+}
+.site-search button{	width: 8px; 
+						height: 20px; 
+						background: url(http://www.clker.com/cliparts/n/C/y/X/u/K/search-icon.svg); 
+						border: none; 
+						padding: 1px; 
+						float: right;
+}
+/*End of searchbox styles*/
+
+
+#tabletop { border:5px solid #F7CA18; 
+}
+#bankname {  text-align:left; 
+			 font-weight:bold;
+}
+
+div.a{ 	text-aling:left;
+		padding-left:30px;
+}
+div.b{  padding-right:30px;
+		adding-top:10px;
+}
+
+div.d{ text-align:center;
+}
+	
+div.c{	text-align:right;
+		padding-right:50px
+}
+				
+#login{  color:Black; 
+		 background-color:white;
+		 border-radius:15px;
+}
+#myimage { margin:14px 0px 0px 250px;
+		   width:60%;
+}		
+#body {	margin-right: 10px;   
+		margin-left: 10px; 	
+}
+
+#tablein { font-weight:bold; 
+			font-size:20px;
+}
+
+#news { position:absolute; 
+		left:100px 
+}
+
+.slideshow, .Slidepic{ margin-top:50px; 
+					   height:250px;
+					   width:65%;} 
+
+div.news1 { display: inline-block;
+			text-align:left;
+			width: 81% ; 
+			vertical-align:top;  
+			margin-left : 15px;
+			text-align: justify;
+			text-justify: inter-word;
+}
+
+.savings-calculator-link { text-decoration:none;font:bold 14px Arial, Helvetica, sans-serif;color:#000000; }
+
+.adcontainer {
+	text-align: center;
+}
+
+.adbuttoncontainer {
+	display: inline-block;
+}
+
+.adbutton { display:block; margin-right:auto; margin-left:auto; }
+.adbutton1 { display:block; margin-right:auto; margin-left:auto; }
+.adbutton2 { display:block; margin-right:auto; margin-left:auto; }
+
+#Advertisementjs { display:block; margin-right:auto; margin-left:auto; }
+.twittertline { width:100%;
+				text-align: center;
+}
+
+#tabledownhome { border:3px solid #F7CA18 }
+
+#savings-calculator { text-align:center; width:235px;height:235px; padding:5px; background-color:#FFFFFF; }
+
+.savings-calculator-link { text-decoration:none;font:bold 14px Arial, Helvetica, sans-serif;color:#000000; }
+

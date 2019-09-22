@@ -1,0 +1,41 @@
+a.footerlink:hover {
+        font-size: 40px;
+        color: #F7CA18;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    a.footerlink:link {
+        color: #F7CA18;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    .footer {
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        background-color: rgb(108, 122, 137);
+        margin: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    div.a {
+        text-aling: left;
+        padding-left: 30px;
+    }
+
+    div.b {
+        padding-right: 30px;
+        padding-top: 10px;
+    }
+
+    div.d {
+        text-align: center;
+    }
+
+    div.c {
+        text-align: right;
+        padding-right: 50px;
+    }

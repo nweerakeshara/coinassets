@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+.clearfix{overflow: auto}
+
+.wrapper{
+	
+	width: 1000px;
+	height: 1600px;
+	
+	
+		margin: 0 auto;
+}
+
+
+
+.page-title{
+	
+	width: 300px;
+	height: 50px;
+	background-color: aqua;
+	background: linear-gradient(#333333, #000000, #333333);
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	
+	
+	
+}
+
+.page-title p{
+	
+	font-variant: small-caps;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 5px;
+	margin: 0px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: antiquewhite;
+		
+	
+}
+
+.row1{
+	margin-top: 100px;
+	height: 300px;
+	width: 1000px;
+	
+	
+
+}
+
+.row2{
+	margin-top: 100px;
+	height: 300px;
+	width: 1000px;
+	
+	
+	
+}
+
+.pic1{
+	
+	width: 400px;
+	height: 300px;
+	border:2px solid #5A5858;
+	float: left;
+	margin-left: 50px;
+	
+}
+
+.pic2{
+	
+	width: 400px;
+	height: 300px;
+	
+	float: right;
+	margin-right: 50px;
+	border:2px solid #5A5858;
+	
+}
+
+.pic3{
+	
+	width: 400px;
+	height: 300px;
+	
+	float: left;
+	margin-left: 50px;
+	border:2px solid #5A5858;
+	
+	
+}
+
+.pic4{
+	
+	width: 400px;
+	height: 300px;
+
+	float: right;
+	margin-right: 50px;
+	border:2px solid #5A5858;
+	
+}
+
+.name1{
+	
+	height: 50px;
+	width: 300px;
+	background-color: #80bfff;
+	float: left;
+	margin-left: 100px;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+
+.name2{
+	
+	height: 50px;
+	width: 300px;
+	background-color: #80bfff;
+	float: right;
+	margin-right: 100px;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+
+
+.name3{
+	
+	height: 50px;
+	width: 300px;
+	background-color: #80bfff;
+	float: left;
+	margin-left: 100px;
+	margin-bottom: 100px;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+
+.name4{
+	
+	height: 50px;
+	width: 300px;
+	background-color: #80bfff;
+	float: right;
+	margin-right: 100px;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+
+.name1 p{
+	
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color: #262525;
+	
+}
+.name2 p{
+	
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color: #262525;
+	
+}
+.name3 p{
+	
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color: #262525;
+	
+}
+.name4 p{
+	
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color: #262525;
+	
+}
+
+.pie_charts{
+	
+	margin: auto;
+	
+	width: 650px;
+	height: 410px;
+	margin-top: 170px;
+	
+	
+}
+
+.pie_charts button{
+	
+	margin-left: 120px;
+	
+}
+
+
+
+
+
+
+
